@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="/vue.js"></script>
     <!-- https://vuejs.org/v2/guide/installation.html -->
     <title>Document</title>
 </head>
+
 <body>
     <div id="obj">
-        <p>{{content}}</p>
-        <button v-on:click="say">v-on:Say</button>
-        <button @click="say">@Say</button>
+        <p v-once>{{ content }} - {{ sayHello() }}</p>
     </div>
     <script>
         new Vue({
             el: '#obj',
             data: {
-                content: "Hello world !",
+                content: "Hello world!",
             },
             methods: {
-                say: function() {
-                   this.content = "Hello vue !";
-                   return this.content;
+                sayHello: function () {
+                    this.content = 'Hello Vue';
+                    return this.content;
                 }
             }
         })
     </script>
 </body>
+
 </html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- https://vuejs.org/v2/guide/installation.html -->
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <button v-on:click="flag = !flag">Change</button>
+        <div v-show="flag"> <!-- detach -->
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+            <li>Menu 3</li>
+            <li>Menu 4</li>
+            <li>Menu 5</li>
+        </div>
+        <!-- Có sinh thêm style display: none -->
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                flag: true
+            }
+        })
+    </script>
+</body>
+
+</html>

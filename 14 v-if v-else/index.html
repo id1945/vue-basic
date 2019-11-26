@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- https://vuejs.org/v2/guide/installation.html -->
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <!-- viết dạng background-color => backgroundColor -->
+        <div class="container">
+            <span v-if="flag">    
+                Box 1
+            </span>
+            <span v-else="!flag">    
+                Box 2
+            </span>
+        </div>
+        <button v-on:click="change">Change</button>
+    </div>
+    <style>
+        .container {
+            height: 200px;
+            width: 200px;
+            display: table-cell;
+            vertical-align: middle;
+            font-size: 17pt;
+            text-align: center;
+            background-color: aquamarine;
+        }
+    </style>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                flag: true
+            },
+            methods: {
+                change: function () {
+                    this.flag = !this.flag;
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

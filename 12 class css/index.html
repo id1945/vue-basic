@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- https://vuejs.org/v2/guide/installation.html -->
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container" v-bind:class="{'deepskyblue-bg': bg, middle: true }">
+            <!-- Mảng class -->
+            <span :class="[color, yellowBg]"> 
+                Box css
+            </span>
+        </div>
+        <b>Class:</b> text-dark, text-danger, text-primary<br/>
+        <input type="text" v-model="color" placeholder="Nhập màu chữ"><br/>
+        <button v-on:click="change">Thay đổi background</button>
+    </div>
+    <style>
+        .container {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+
+        .middle {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .deepskyblue-bg {
+            background-color: deepskyblue;
+        }
+
+        .yellow-bg {
+            background-color: yellow;
+        }
+
+        .text-dark {
+            color: #000;
+        }
+
+        .text-danger {
+            color: red;
+        }
+
+        .text-primary {
+            color: blue;
+        }
+    </style>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                color: 'text-dark',
+                yellowBg: 'yellow-bg',
+                bg: false
+            },
+            methods: {
+                change: function () {
+                    this.bg = !this.bg;
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="/vue.js"></script>
     <!-- https://vuejs.org/v2/guide/installation.html -->
     <title>Document</title>
 </head>
+
 <body>
     <div id="obj">
-        <p v-once>{{ content }} - {{ sayHello() }}</p>
+        <div>
+            v-on:keyup: <input type="text" v-on:keyup="input"><br/> v-on:keyup.enter: <input type="text" v-on:keyup.enter="input"><br/>            v-on:keyup.enter.space: <input type="text" v-on:keyup.enter.space="input"><br/> Result:
+            <spam>{{content}}</span>
+        </div>
     </div>
     <script>
         new Vue({
             el: '#obj',
             data: {
-                content: "Hello world!",
+                content: 'Hello world !'
             },
             methods: {
-                sayHello: function() {
-                    this.content = 'Hello Vue';
-                    return this.content;
+                input: function (event) {
+                    this.content = event.target.value;
                 }
             }
         })
     </script>
 </body>
+
 </html>

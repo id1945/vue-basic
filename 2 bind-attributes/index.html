@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- https://vuejs.org/v2/guide/installation.html -->
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="obj">
+        <a v-bind:href="link">Vue installation</a>
+    </div>
+    <script>
+        new Vue({
+            el: '#obj',
+            data: {
+                link: 'https://vuejs.org/v2/guide/installation.html'
+            }
+        })
+    </script>
+</body>
+
+</html>

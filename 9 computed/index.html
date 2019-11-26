@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="/vue.js"></script>
     <!-- https://vuejs.org/v2/guide/installation.html -->
     <title>Document</title>
 </head>
+
 <body>
     <div id="app">
-        Giá trị a: {{ dataA }}
-        Giá trị a: {{ dataB }}<br/>
+        Giá trị a: {{ dataA }} Giá trị a: {{ dataB }}<br/>
         <button v-on:click="a++">Tăng A</button>
         <button v-on:click="b++">Tăng B</button>
     </div>
@@ -34,11 +32,11 @@
                 // }
             },
             computed: {
-                dataA: function() {
+                dataA: function () {
                     console.log('Goi function a');
                     return this.a;
                 },
-                dataB: function() {
+                dataB: function () {
                     console.log('Goi function b');
                     return this.b;
                 }
@@ -46,4 +44,5 @@
         })
     </script>
 </body>
+
 </html>

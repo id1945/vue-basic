@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- https://vuejs.org/v2/guide/installation.html -->
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <a v-bind:href="link" target="_blank">Open: {{link}}</a><br/>
+        <button v-on:click="googleLink">Change link</button>
+        <button @click="fbLink">Change link Shorthand</button>
+        <!-- shorthand @click-->
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                link: 'http://vuejs.org'
+            },
+            methods: {
+                googleLink: function (e) {
+                    this.link = 'http://google.vn';
+                },
+                fbLink: function (e) {
+                    this.link = 'http://facebook.vn';
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- https://vuejs.org/v2/guide/installation.html -->
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <!-- viết dạng background-color => backgroundColor -->
+        <div class="center" v-bind:style="{'backgroundColor': bg, 'width': width, height: height }">
+            <!-- Mảng style -->
+            <span :style="[{color: this.color}, {fontSize: this.textSize}]"> 
+                Box css
+            </span>
+        </div>
+
+        <input type="text" v-model="textSize" placeholder="Nhập cỡ chữ"><br/>
+        <input type="text" v-model="bg" placeholder="Nhập màu nền"><br/>
+        <input type="color" v-model="color" placeholder="Chọn màu chũ"><br/>
+        <input type="text" v-model="width" placeholder="Chiểu rộng"><br/>
+        <input type="text" v-model="height" placeholder="Chiều cao"><br/>
+    </div>
+    <style>
+        .center {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+    </style>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                textSize: '17pt',
+                bg: 'yellow',
+                color: '#000',
+                width: '200px',
+                height: '200px'
+            },
+            methods: {
+                change: function () {
+                    this.bg = !this.bg;
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
