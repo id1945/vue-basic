@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="/vue.js"></script>
+    <!-- https://vuejs.org/v2/guide/installation.html -->
+    <title>Document</title>
+</head>
+<body>
+    <div id="obj">
+        <div v-on:mouseover="move">
+            <p>{{x}} - {{y}}</p>
+            <p v-on:mouseover="stop">Stop</p>
+        </div>
+    </div>
+    <script>
+        // https://vuejs.org/v2/guide/events.html
+        new Vue({
+            el: '#obj',
+            data: {
+                x: 0,
+                y: 0
+            },
+            methods: {
+                move: function(event) {
+                   this.x = event.clientX;
+                   this.y = event.clientY;
+                },
+                stop: function(event) {
+                    event.stopPropagation();
+                }
+            }
+        })
+    </script>
+</body>
+</html>
