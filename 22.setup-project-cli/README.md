@@ -1,3 +1,5 @@
+[Demo](https://id1945.github.io/vue-basic/22.setup-project-cli/dist/index.html "Demo")
+
 ## [1] Create with CLI - Command line
 ```
 npm install -g @vue/cli
@@ -11,5 +13,3 @@ git clone https://github.com/id1945/vue-basic.git
 cd 22.setup-project-cli
 npm install
 ```
-
-[Demo](https://id1945.github.io/vue-basic/22.setup-project-cli/dist/index.html "Demo")
