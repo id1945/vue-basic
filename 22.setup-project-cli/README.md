@@ -1,24 +1,13 @@
-# 22.setup-project-cli
-
-## Project setup
+## [1] Create with CLI - Command line
 ```
+npm install -g @vue/cli
+vue create 22.setup-project-cli
+npm vue serve
+```
+
+## [2] Clone app
+```
+git clone https://github.com/id1945/vue-basic.git
+cd 22.setup-project-cli
 npm install
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
