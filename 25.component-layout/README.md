@@ -1,24 +1,16 @@
-# 25.component-layout
+[Demo](https://id1945.github.io/vue-basic/25.component-layout/dist "Demo")
 
-## Project setup
+## [1] Create with CLI - Command line
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
+npm install -g @vue/cli
+vue create 25.component-layout
 npm run serve
 ```
 
-### Compiles and minifies for production
+## [2] Clone app
 ```
-npm run build
+git clone https://github.com/id1945/vue-basic.git
+cd vue-basic/25.component-layout
+npm install
+npm run serve
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

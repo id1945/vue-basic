@@ -4,13 +4,13 @@
             <input type="text" placeholder="Enter name" v-model="name">
         </div>
         <div class="container-center">
-            <details-app v-bind:nameBind="name"/>
+            <details-app :propA="10" :propB="name"/>
         </div>
     </div>
 </template>
 
 <script>
-// https://vuejs.org/v2/guide/components-props.html#Prop-Types
+// https://vuejs.org/v2/guide/components-props.html#Prop-Validation
 import Details from "./details";
 export default {
     data: function() {
