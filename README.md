@@ -20,7 +20,9 @@ Vue CDN
 19. [19.el-data](https://id1945.github.io/vue-basic/19.el-data "19.el-data")
 20. [20.component](https://id1945.github.io/vue-basic/20.component "20.component")
 21. [21.lifecycle-hooks](https://id1945.github.io/vue-basic/21.lifecycle-hooks "21.lifecycle-hooks")
+
 Vue CLI
+
 22. [22.setup-project-cli](https://id1945.github.io/vue-basic/22.setup-project-cli/dist "22.setup-project-cli")
 23. [23.component](https://id1945.github.io/vue-basic/23.component/dist "23.component")
 24. [24.component-use](https://id1945.github.io/vue-basic/24.component-use "24.component-use")
