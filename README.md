@@ -27,4 +27,4 @@ Vue CLI
 
 22. [22.setup-project-cli](https://id1945.github.io/vue-basic/22.setup-project-cli/dist "22.setup-project-cli")
 23. [23.component](https://id1945.github.io/vue-basic/23.component/dist "23.component")
-24. [24.component-use](https://id1945.github.io/vue-basic/24.component-use "24.component-use")
+24. [24.component-use](https://id1945.github.io/vue-basic/24.component-use/dist "24.component-use")
