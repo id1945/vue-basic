@@ -1,4 +1,4 @@
-[Demo](https://id1945.github.io/vue-basic/22.setup-project-cli/dist/index.html "Demo")
+[Demo](https://id1945.github.io/vue-basic/22.setup-project-cli/dist "Demo")
 
 ## [1] Create with CLI - Command line
 ```

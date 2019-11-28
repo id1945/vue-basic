@@ -1,24 +1,16 @@
-# 23.component
+[Demo](https://id1945.github.io/vue-basic/23.component/dist "Demo")
 
-## Project setup
+## [1] Create with CLI - Command line
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
+npm install -g @vue/cli
+vue create 23.component
 npm run serve
 ```
 
-### Compiles and minifies for production
+## [2] Clone app
 ```
-npm run build
+git clone https://github.com/id1945/vue-basic.git
+cd vue-basic/23.component
+npm install
+npm run serve
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
