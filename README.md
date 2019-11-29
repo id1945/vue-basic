@@ -30,5 +30,6 @@ Vue CLI
 24. [24.component-use](https://id1945.github.io/vue-basic/24.component-use/dist "24.component-use")
 25. [25.component-layout](https://id1945.github.io/vue-basic/25.component-layout/dist "25.component-layout")
 26. [26.props](https://id1945.github.io/vue-basic/26.props/dist "26.props")
-26. [27.props-validation](https://id1945.github.io/vue-basic/27.props-validation/dist "27.props-validation")
-26. [28.emit](https://id1945.github.io/vue-basic/28.emit/dist "28.emit")
+27. [27.props-validation](https://id1945.github.io/vue-basic/27.props-validation/dist "27.props-validation")
+28. [28.props-callback-functions](https://id1945.github.io/vue-basic/28.props-callback-functions/dist "28.props-callback-functions")
+29. [29.emit](https://id1945.github.io/vue-basic/29.emit/dist "29.emit")

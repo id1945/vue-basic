@@ -3,15 +3,15 @@
         <h3>Detail app - $emit</h3>
         <input type="text" placeholder="Enter name" v-model="name">
         <button @click="testEmit()">Emit</button>
+        <button @click="resetNameFn()">Reset Name</button>
     </div>
 </template>
 
 <script>
 export default {
-    data: function() {
-        return {
-            name
-        } 
+    props: {
+        name: String,
+        resetNameFn: Function
     },
     methods: {
         testEmit: function() {

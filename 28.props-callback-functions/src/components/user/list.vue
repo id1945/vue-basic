@@ -4,18 +4,23 @@
             {{name}}
         </div>
         <div class="container-center">
-            <details-app @keyEmit="name = $event"/>
+            <details-app :customName="name" :resetNameFn="resetName" @keyEmit="name = $event"/>
         </div>
     </div>
 </template>
 
 <script>
-// https://vuejs.org/v2/guide/components-props.html#Prop-Validation
 import Details from "./details";
 export default {
     data: function() {
         return {
             name: 'Hello world !'
+        }
+    },
+    methods: {
+        resetName() {
+            // Callback function
+            this.name = 'Hello world !'
         }
     },
     components: {
