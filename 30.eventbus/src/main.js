@@ -3,7 +3,7 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-export const EventBus = new Vue();
+Vue.prototype.$eventBus = new Vue(); // Global event bus
 
 new Vue({
   render: h => h(App),

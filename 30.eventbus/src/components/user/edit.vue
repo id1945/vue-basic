@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import {EventBus} from '../../main.js';
 export default {
     data: function() {
         return {
@@ -16,7 +15,7 @@ export default {
     },
     methods: {
         emitMethod: function() {
-            EventBus.$emit('changeName', this.name);
+            this.$eventBus.$emit('DATA_PUBLISHED', this.name);
         }
     }
 }

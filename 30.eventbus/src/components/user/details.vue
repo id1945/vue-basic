@@ -6,22 +6,23 @@
 </template>
 
 <script>
-import {EventBus} from '../../main.js';
 export default {
     data: function() {
         return {
             name: 'Hello world !'
         }
     },
-    create() {
-        EventBus.$on('changeName', (name) => {
-            alert(this.name);
-            this.name = name;
-        });
+    created: function() {
+        this.$eventBus.$on('DATA_PUBLISHED', this.changeName);
     },
     beforeDestroy() {
-        this.$eventHub.$off('changeName');
+        this.$eventBus.$off('DATA_PUBLISHED');
     },
+    methods: {
+        changeName(name) {
+            this.name = name;
+        }
+    }
 }
 </script>
 
