@@ -1,9 +1,10 @@
 <template>
     <div class="detail">
-        <h3>Detail app - Props Callback Function</h3>
+        <h3>Detail app</h3>
+        <h3>Callback Function</h3>
         <input type="text" placeholder="Enter name" v-model="name">
-        <button @click="testEmit()">Emit</button>
-        <button @click="resetNameFn()">CallbackFn</button>
+        <button @click="testEmit()">Emit</button><br/>
+        <button @click="resetNameFn()">CallbackFn</button><br/>
     </div>
 </template>
 
