@@ -41,4 +41,4 @@ Vue CLI
 35. [35.bind-checkbox](https://id1945.github.io/vue-basic/35.bind-checkbox/dist "35.bind-checkbox")
 36. [36.bind-dropdown](https://id1945.github.io/vue-basic/36.bind-dropdown/dist "36.bind-dropdown")
 37. [37.bind-radio](https://id1945.github.io/vue-basic/37.bind-radio/dist "37.bind-radio")
-37. [38.input-value](https://id1945.github.io/vue-basic/38.input-value/dist "38.input-value")
+37. [38.v-model-custom](https://id1945.github.io/vue-basic/38.v-model-custom/dist "38.v-model-custom")
