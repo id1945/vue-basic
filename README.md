@@ -37,3 +37,4 @@ Vue CLI
 29. [31.slot](https://id1945.github.io/vue-basic/31.slot/dist "31.slot")
 29. [32.slot-multi](https://id1945.github.io/vue-basic/32.slot-multi/dist "32.slot-multi")
 29. [33.switch-component](https://id1945.github.io/vue-basic/33.switch-component/dist "33.switch-component")
+29. [34.bind-textarea](https://id1945.github.io/vue-basic/34.bind-textarea/dist "34.bind-textarea")
