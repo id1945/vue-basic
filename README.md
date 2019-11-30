@@ -39,5 +39,5 @@ Vue CLI
 33. [33.switch-component](https://id1945.github.io/vue-basic/33.switch-component/dist "33.switch-component")
 34. [34.bind-textarea](https://id1945.github.io/vue-basic/34.bind-textarea/dist "34.bind-textarea")
 35. [35.bind-checkbox](https://id1945.github.io/vue-basic/35.bind-checkbox/dist "35.bind-checkbox")
-36. [34.bind-textarea](https://id1945.github.io/vue-basic/36.bind-dropdown/dist "36.bind-dropdown")
-37. [34.bind-textarea](https://id1945.github.io/vue-basic/37.bind-radio/dist "37.bind-radio")
+36. [36.bind-dropdown](https://id1945.github.io/vue-basic/36.bind-dropdown/dist "36.bind-dropdown")
+37. [37.bind-radio](https://id1945.github.io/vue-basic/37.bind-radio/dist "37.bind-radio")
