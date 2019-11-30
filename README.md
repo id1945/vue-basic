@@ -35,3 +35,5 @@ Vue CLI
 29. [29.emit](https://id1945.github.io/vue-basic/29.emit/dist "29.emit")
 29. [30.eventbus](https://id1945.github.io/vue-basic/30.eventbus/dist "30.eventbus")
 29. [31.slot](https://id1945.github.io/vue-basic/31.slot/dist "31.slot")
+29. [32.slot-multi](https://id1945.github.io/vue-basic/32.slot-multi/dist "32.slot-multi")
+29. [33.switch-component](https://id1945.github.io/vue-basic/33.switch-component/dist "33.switch-component")

@@ -1,8 +1,7 @@
 <template>
     <div class="detail">
         <h3>Edit app</h3>
-        <input type="text" v-model="name"><br>
-        <button @click="emitMethod()">Emit name</button>
+        <pre>Hello Edit App !</pre>
     </div>
 </template>
 
@@ -11,11 +10,6 @@ export default {
     data: function() {
         return {
             name
-        }
-    },
-    methods: {
-        emitMethod: function() {
-            this.$eventBus.$emit('DATA_PUBLISHED', this.name);
         }
     }
 }

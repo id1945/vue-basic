@@ -1,9 +1,11 @@
 <template>
     <div class="list">
-        <h3>EventBus</h3>
+        <h3>Switch Component</h3>
         <div class="container-center">
-            <details-app/>
-            <edit-app/>
+            <component :is="selectComponent"></component>
+            <br>
+            <button @click="selectComponent = 'DetailsApp'">DetailsApp</button>
+            <button @click="selectComponent = 'EditApp'">EditApp</button>
         </div>
     </div>
 </template>
@@ -12,7 +14,12 @@
 import Details from "./details";
 import Edit from "./edit";
 export default {
-     components: {
+    data: function() {
+        return {
+            selectComponent: 'DetailsApp'
+        }
+    },
+    components: {
         DetailsApp: Details,
         EditApp: Edit
     }

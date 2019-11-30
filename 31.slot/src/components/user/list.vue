@@ -4,7 +4,7 @@
         <div class="container-center">
             <details-app>
                 <h3>Details app</h3>
-                <pre>Hello details App !</pre>
+                <pre>Hello detail App !</pre>
             </details-app>
             <edit-app>
                 <h3>Edit app</h3>

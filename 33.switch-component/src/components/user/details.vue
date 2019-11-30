@@ -1,7 +1,7 @@
 <template>
     <div class="detail">
-        <h3>Detail app</h3>
-        <pre>{{name}}</pre>
+        <h3>Details app</h3>
+        <pre>Hello detail App !</pre>
     </div>
 </template>
 
@@ -10,17 +10,6 @@ export default {
     data: function() {
         return {
             name: 'Hello world !'
-        }
-    },
-    created: function() {
-        this.$eventBus.$on('DATA_PUBLISHED', this.changeName);
-    },
-    beforeDestroy() {
-        this.$eventBus.$off('DATA_PUBLISHED');
-    },
-    methods: {
-        changeName(name) {
-            this.name = name;
         }
     }
 }
