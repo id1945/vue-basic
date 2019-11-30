@@ -33,3 +33,5 @@ Vue CLI
 27. [27.props-validation](https://id1945.github.io/vue-basic/27.props-validation/dist "27.props-validation")
 28. [28.props-callback-functions](https://id1945.github.io/vue-basic/28.props-callback-functions/dist "28.props-callback-functions")
 29. [29.emit](https://id1945.github.io/vue-basic/29.emit/dist "29.emit")
+29. [30.eventbus](https://id1945.github.io/vue-basic/30.eventbus/dist "30.eventbus")
+29. [31.slot](https://id1945.github.io/vue-basic/31.slot/dist "31.slot")
