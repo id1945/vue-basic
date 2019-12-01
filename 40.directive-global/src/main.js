@@ -16,7 +16,7 @@ Vue.directive('hightligth', {
       el.style.color = binding.value;
     }
 
-    // USE Delay
+    // USE Blink
     if (binding.modifiers['blink']) {
       setTimeout(function() {
         setInterval(() => {
