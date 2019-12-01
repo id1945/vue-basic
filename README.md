@@ -42,4 +42,5 @@ Vue CLI
 36. [36.bind-dropdown](https://id1945.github.io/vue-basic/36.bind-dropdown/dist "36.bind-dropdown")
 37. [37.bind-radio](https://id1945.github.io/vue-basic/37.bind-radio/dist "37.bind-radio")
 37. [38.v-model-custom](https://id1945.github.io/vue-basic/38.v-model-custom/dist "38.v-model-custom")
+37. [39.event-modifier](https://id1945.github.io/vue-basic/39.event-modifier/dist "39.event-modifier")
 37. [40.directives](https://id1945.github.io/vue-basic/40.directives/dist "40.directives")
