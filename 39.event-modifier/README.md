@@ -15,7 +15,7 @@ npm install
 npm run serve
 ```
 
-### v-on tag
+## v-on tag
 
 ````html
 <input v-on:change="callMethod">
