@@ -47,5 +47,5 @@ Vue CLI
 41. [41.directives-local](https://id1945.github.io/vue-basic/41.directives-local/dist "41.directives-local")
 42. [42.filter-global](https://id1945.github.io/vue-basic/42.filter-global/dist "42.filter-global")
 43. [43.filters-local](https://id1945.github.io/vue-basic/43.filters-local/dist "43.filters-local")
-44. [44.mixin-global](https://id1945.github.io/vue-basic/44.mixin-global/dist "44.mixin-global")
-45. [45.mixins-local](https://id1945.github.io/vue-basic/45.mixins-local/dist "45.mixins-local")
+44. [44.mixin-global](https://id1945.github.io/vue-basic/44.mixin-global/dist "44.mixin-global <= Share data")
+45. [45.mixins-local](https://id1945.github.io/vue-basic/45.mixins-local/dist "45.mixins-local <= Share data")
