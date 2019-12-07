@@ -54,3 +54,4 @@ Vue CLI
 48. [48.transition-animation-appear](https://id1945.github.io/vue-basic/48.transition-animation-appear/dist "48.transition-animation-appear")
 49. [49.transition-muti-class](https://id1945.github.io/vue-basic/49.transition-muti-class/dist "49.transition-muti-class")
 50. [50.transition-group](https://id1945.github.io/vue-basic/50.transition-group/dist "50.transition-group")
+50. [51.interceptors](https://id1945.github.io/vue-basic/51.interceptors/dist "51.interceptors")
