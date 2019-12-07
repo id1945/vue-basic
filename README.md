@@ -51,3 +51,4 @@ Vue CLI
 45. [45.mixins-local  <= Share data](https://id1945.github.io/vue-basic/45.mixins-local/dist "45.mixins-local <= Share data")
 45. [46.transition](https://id1945.github.io/vue-basic/46.transition/dist "46.transition")
 45. [47.transition-animation](https://id1945.github.io/vue-basic/47.transition-animation/dist "47.transition-animation")
+45. [48.transition-animation-appear](https://id1945.github.io/vue-basic/48.transition-animation-appear/dist "48.transition-animation-appear")
