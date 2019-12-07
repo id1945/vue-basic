@@ -52,3 +52,4 @@ Vue CLI
 45. [46.transition](https://id1945.github.io/vue-basic/46.transition/dist "46.transition")
 45. [47.transition-animation](https://id1945.github.io/vue-basic/47.transition-animation/dist "47.transition-animation")
 45. [48.transition-animation-appear](https://id1945.github.io/vue-basic/48.transition-animation-appear/dist "48.transition-animation-appear")
+45. [49.transition-muti-class](https://id1945.github.io/vue-basic/49.transition-muti-class/dist "49.transition-muti-class")
