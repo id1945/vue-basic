@@ -49,3 +49,4 @@ Vue CLI
 43. [43.filters-local](https://id1945.github.io/vue-basic/43.filters-local/dist "43.filters-local")
 44. [44.mixin-global  <= Share data](https://id1945.github.io/vue-basic/44.mixin-global/dist "44.mixin-global <= Share data")
 45. [45.mixins-local  <= Share data](https://id1945.github.io/vue-basic/45.mixins-local/dist "45.mixins-local <= Share data")
+45. [46.transition](https://id1945.github.io/vue-basic/46.transition/dist "46.transition")
