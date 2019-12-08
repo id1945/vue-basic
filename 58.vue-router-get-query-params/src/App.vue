@@ -12,7 +12,7 @@
             class="nav-item nav-link">Home</router-link>
           <router-link
             tag="a" 
-            :to="{path:'/user'}"
+            :to="{path:'/users'}"
             active-class="active"
             class="nav-item nav-link">User</router-link>
         </div>

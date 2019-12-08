@@ -9,7 +9,7 @@
   export default {
     methods: {
       details() {
-        this.$router.push({ path:'/Users/123', query:{msg:'HelloWorld'}});
+        this.$router.push({ path:'/users/123', query:{msg:'HelloWorld'}});
       }
     }
   }
