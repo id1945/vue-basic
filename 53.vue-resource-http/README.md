@@ -4,6 +4,7 @@
 ```
 npm install -g @vue/cli
 vue create 53.vue-resource-http
+npm install vue-resource --save
 npm run serve
 ```
 

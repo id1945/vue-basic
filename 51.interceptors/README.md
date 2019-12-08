@@ -4,6 +4,7 @@
 ```
 npm install -g @vue/cli
 vue create 51.interceptors
+npm install vue-resource --save
 npm run serve
 ```
 
