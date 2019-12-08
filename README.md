@@ -56,4 +56,5 @@ Vue CLI
 50. [50.transition-group](https://id1945.github.io/vue-basic/50.transition-group/dist "50.transition-group")
 51. [51.interceptors](https://id1945.github.io/vue-basic/51.interceptors/dist "51.interceptors")
 52. [52.interceptors-response](https://id1945.github.io/vue-basic/52.interceptors-response/dist "52.interceptors-response")
-52. [53.vue-resource-http](https://id1945.github.io/vue-basic/53.vue-resource-http/dist "53.vue-resource-http")
+53. [53.vue-resource-http](https://id1945.github.io/vue-basic/53.vue-resource-http/dist "53.vue-resource-http")
+54. [54.vue-resource-http-uri](https://id1945.github.io/vue-basic/54.vue-resource-http-uri/dist "54.vue-resource-http-uri")
