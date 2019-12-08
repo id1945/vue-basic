@@ -1,5 +1,5 @@
 {
-  "name": "58.vue-router-children-param",
+  "name": "59.vue-router-watch-params",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -30,9 +30,7 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {
-      "no-console": "off"
-    },
+    "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
     }

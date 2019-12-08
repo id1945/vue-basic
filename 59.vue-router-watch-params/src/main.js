@@ -3,8 +3,8 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 
 import Home from "./components/Home";
-import User from "./components/user/User";
-import UserInfo from "./components/user/UserInfo";
+import Users from "./components/users/User";
+import UserDetails from "./components/users/UserDetails";
 
 Vue.use(VueRouter)
 
@@ -12,11 +12,8 @@ const router = new VueRouter({
   // mode: "history", // http://localhost:8080/#/user => http://localhost:8080/user
   routes: [
     {path: '/', name: 'homePage', component: Home},
-    {path: '/user', component: User, children: [
-        //UserInfo component is rendered when /user/:uid is matched
-        { path: ':uid', component: UserInfo, props: true }
-      ]
-    }
+    {path: '/users', name: 'users', component: Users},
+    {path: '/users/:id', name: 'userDetails', component: UserDetails}
   ]
 })
 
