@@ -7,17 +7,17 @@
 
 <script>
 export default {
-  props: ["uid"],
+  props: ["uid"], // Params
   data() {
     return {
       message: ''
     }
   },
   beforeUpdate() {
-    this.message = this.$route.query.msg;
+    this.message = this.$route.query.msg; // Query params
   },
   created() {
-    this.message = this.$route.query.msg;
+    this.message = this.$route.query.msg; // Query params
   }
 }
 </script>
