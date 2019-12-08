@@ -8,7 +8,7 @@ import User from "./components/User";
 Vue.use(VueRouter)
 
 const router = new VueRouter({
-  mode: "history", // http://localhost:8080/#/user => http://localhost:8080/user
+  // mode: "history", // http://localhost:8080/#/user => http://localhost:8080/user
   routes: [
     {path: '/', name: 'homePage', component: Home},
     {path: '/user', name: 'user', component: User}
