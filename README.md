@@ -59,3 +59,4 @@ Vue CLI
 53. [53.vue-resource-http](https://id1945.github.io/vue-basic/53.vue-resource-http/dist "53.vue-resource-http")
 54. [54.vue-resource-http-uri](https://id1945.github.io/vue-basic/54.vue-resource-http-uri/dist "54.vue-resource-http-uri")
 55. [55.vue-router](https://id1945.github.io/vue-basic/55.vue-router/dist "55.vue-router")
+56. [56.vue-router-active-class](https://id1945.github.io/vue-basic/56.vue-router-active-class/dist "56.vue-router-active-class")
