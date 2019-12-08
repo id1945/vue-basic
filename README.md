@@ -62,4 +62,5 @@ Vue CLI
 56. [56.vue-router-active-class](https://id1945.github.io/vue-basic/56.vue-router-active-class/dist "56.vue-router-active-class")
 57. [57.vue-router-event-link](https://id1945.github.io/vue-basic/57.vue-router-event-link/dist "57.vue-router-event-link")
 57. [58.vue-router-get-query-params](https://id1945.github.io/vue-basic/58.vue-router-get-query-params/dist "58.vue-router-get-query-params")
-57. [59.vue-router-watch-params](https://id1945.github.io/vue-basic/59.vue-router-watch-params/dist "59.vue-router-watch-params")
+57. [59.vue-router-watch-query-params](https://id1945.github.io/vue-basic/59.vue-router-watch-query-params/dist "59.vue-router-watch-query-params")
+57. [60.vue-router-children](https://id1945.github.io/vue-basic/60.vue-router-children/dist "60.vue-router-children")
