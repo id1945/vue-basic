@@ -56,6 +56,8 @@ export default {
     }
     this.resource = this.$resource('posts', '', customAction)
   }
+  // https://github.com/pagekit/vue-resource
+  // https://medialize.github.io/URI.js/uri-template.html
 }
 </script>
 
