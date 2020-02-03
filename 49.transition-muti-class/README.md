@@ -15,6 +15,7 @@ npm install
 npm run serve
 ```
 
+## [3] Summary
 ````html
 <transition
     enter-class="fade-enter"

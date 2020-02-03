@@ -15,6 +15,7 @@ npm install
 npm run serve
 ```
 
+## [3] Summary
 ````javascript
 import Vue from 'vue'
 import App from './App.vue'

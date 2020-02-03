@@ -15,6 +15,7 @@ npm install
 npm run serve
 ```
 
+## [3] Summary
 ````javascript
 // HelloWorld.vue
 import { myMixin  } from './myMixin.js';

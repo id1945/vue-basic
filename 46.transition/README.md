@@ -15,6 +15,7 @@ npm install
 npm run serve
 ```
 
+## [3] Summary
 ````html
 <transition name="fade">
     <div v-if="show" class="alert alert-success w-25 m-auto" role="alert">

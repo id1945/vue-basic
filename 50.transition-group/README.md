@@ -15,6 +15,7 @@ npm install
 npm run serve
 ```
 
+## [3] Summary
 ````html
 <transition-group name="flip">
   <li class="list-group-item list-group-item-secondary" v-for="(num, i) in numbers" :key="i">{{num}}</li>
