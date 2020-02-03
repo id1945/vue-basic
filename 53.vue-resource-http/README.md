@@ -15,3 +15,27 @@ cd vue-basic/53.vue-resource-http
 npm install
 npm run serve
 ```
+
+## [3] Summary
+````javascript
+import Vue from 'vue'
+Vue.http.options.root = "https://jsonplaceholder.typicode.com/";
+
+````
+````javascript
+export default {
+  data: function() {
+    return {
+      post: ""
+    };
+  },
+  created() {
+    // https://jsonplaceholder.typicode.com/posts/1
+    this.$http.get("posts/1") 
+    .then(res => {
+      this.post = res.body;
+    });
+  }
+}
+
+````

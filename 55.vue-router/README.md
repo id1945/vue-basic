@@ -15,3 +15,28 @@ cd vue-basic/55.vue-router
 npm install
 npm run serve
 ```
+
+## [3] Summary
+````html
+<router-link tag="a" :to="{path:'/user'}" class="nav-item nav-link">User</router-link>
+
+````
+````javascript
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter)
+
+const router = new VueRouter({
+  // mode: "history", // http://localhost:8080/#/user => http://localhost:8080/user
+  routes: [
+    {path: '/', name: 'homePage', component: Home},
+    {path: '/user', name: 'user', component: User}
+  ]
+})
+
+new Vue({
+  router,
+  render: h => h(App),
+}).$mount('#app')
+
+````

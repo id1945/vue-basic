@@ -14,3 +14,28 @@ cd vue-basic/45.mixins-local
 npm install
 npm run serve
 ```
+
+````javascript
+// HelloWorld.vue
+import { myMixin  } from './myMixin.js';
+export default {
+  mixins: [myMixin]
+}
+````
+````javascript
+// myMixin.js
+export const myMixin  = {
+    data: function() {
+        return {
+            test_name: 'Hello world ! - TEST Mixins'
+        }
+    }
+}
+````
+````html
+<template>
+  <div>
+    {{test_name}}
+  </div>
+</template>
+````

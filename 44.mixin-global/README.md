@@ -14,3 +14,29 @@ cd vue-basic/44.mixin-global
 npm install
 npm run serve
 ```
+
+````javascript
+import Vue from 'vue'
+import App from './App.vue'
+
+Vue.config.productionTip = false
+
+Vue.mixin({
+  data: function() {
+    return {
+      test_name: "Hello world ! - TEST Mixin"
+    }
+  }
+})
+
+new Vue({
+  render: h => h(App),
+}).$mount('#app')
+````
+````html
+<template>
+  <div>
+    {{test_name}}
+  </div>
+</template>
+````

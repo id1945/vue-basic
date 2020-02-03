@@ -14,3 +14,26 @@ cd vue-basic/46.transition
 npm install
 npm run serve
 ```
+
+````html
+<transition name="fade">
+    <div v-if="show" class="alert alert-success w-25 m-auto" role="alert">
+    This is a primary alert—check it out!
+    </div>
+</transition>
+````
+````css
+.fade-enter {
+    opacity: 0;
+}
+.fade-enter-active {
+    transition: opacity 1s;
+}
+.fade-leave {
+/* opacity: 0; */
+}
+.fade-leave-active {
+    transition: opacity 1s;
+    opacity: 0;
+}
+````

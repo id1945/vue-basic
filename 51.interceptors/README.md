@@ -15,3 +15,48 @@ cd vue-basic/51.interceptors
 npm install
 npm run serve
 ```
+
+## [3] Summary
+````javascript
+export default {
+  data() {
+    return {
+      btc_price: ''
+    }
+  },
+  methods: {
+    getData() {
+      this.$http.get('https://blockchain.info/ticker').then(response => {
+        // success callback
+        this.btc_price = response.body.USD.sell
+        console.log(response);
+      }, response => {
+        // error callback
+        console.error(response);
+      });
+    }
+  }
+}
+
+````
+````javascript
+import Vue from 'vue'
+// telling vue.js to use this package
+Vue.use(VueResource);
+
+Vue.http.interceptors.push(function(request,next){
+
+  // modifying request headers
+  // request.headers.set('X-CSRF-TOKEN', 'TOKEN');
+  // request.headers.set('Authorization', 'Bearer TOKEN');
+
+  next(function(response){
+      //logging the response body
+      console.log(response.body)
+  });
+})
+
+new Vue({
+  render: h => h(App),
+}).$mount('#app')
+````
