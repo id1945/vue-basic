@@ -15,3 +15,27 @@ cd vue-basic/58.vue-router-get-query-params
 npm install
 npm run serve
 ```
+
+## [3] Summary
+````javascript
+const router = new VueRouter({
+  // mode: "history", // http://localhost:8080/#/user => http://localhost:8080/user
+  routes: [
+    {path: '/', name: 'homePage', component: Home},
+    {path: '/Users', name: 'users', component: Users},
+    {path: '/Users/:id', name: 'userDetails', component: UserDetails}
+  ]
+})
+
+````
+````javascript
+export default {
+  data() {
+    return {
+      id: this.$route.params.id,
+      msg: this.$route.query.msg
+    }
+  }
+  ...
+}
+````

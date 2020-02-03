@@ -15,3 +15,32 @@ cd vue-basic/59.vue-router-watch-query-params
 npm install
 npm run serve
 ```
+
+## [3] Summary
+````javascript
+const router = new VueRouter({
+  // mode: "history", // http://localhost:8080/#/user => http://localhost:8080/user
+  routes: [
+    {path: '/', name: 'homePage', component: Home},
+    {path: '/users', name: 'users', component: Users},
+    {path: '/users/:id', name: 'userDetails', component: UserDetails}
+  ]
+})
+
+````
+````javascript
+export default {
+  data() {
+    return {
+      id: this.$route.params.id,
+      msg: this.$route.query.msg
+    }
+  },
+  watch: {
+    '$route'(to, from) {
+      this.id = to.params.id,
+      this.msg = from.query.msg
+    }
+  }
+}
+````

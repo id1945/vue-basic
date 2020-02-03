@@ -15,3 +15,14 @@ cd vue-basic/56.vue-router-active-class
 npm install
 npm run serve
 ```
+
+## [3] Summary
+````html
+<router-link
+    exact
+    tag="a" 
+    :to="{path:'/'}"
+    active-class="active"
+    class="nav-item nav-link">Home</router-link>
+
+````

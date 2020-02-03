@@ -15,3 +15,18 @@ cd vue-basic/57.vue-router-event-link
 npm install
 npm run serve
 ```
+
+## [3] Summary
+````html
+<button @click="backToHome" class="btn btn-info">Back to home</button>
+
+````
+````javascript
+export default {
+  methods: {
+    backToHome() {
+      this.$router.push('/');
+    } 
+  }
+}
+````
