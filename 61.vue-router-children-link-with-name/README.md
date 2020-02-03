@@ -16,6 +16,7 @@ npm install
 npm run serve
 ```
 
+## [3] Summary
 ````javascript
 const router = new VueRouter({
   // mode: "history", // http://localhost:8080/#/user => http://localhost:8080/user
