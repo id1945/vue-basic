@@ -20,6 +20,21 @@
         <input type="text" v-model="color" placeholder="Nhập màu chữ"><br/>
         <button v-on:click="change">Thay đổi background</button>
     </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                color: 'text-dark',
+                yellowBg: 'yellow-bg',
+                bg: false
+            },
+            methods: {
+                change: function () {
+                    this.bg = !this.bg;
+                }
+            }
+        })
+    </script>
     <style>
         .container {
             width: 200px;
@@ -53,21 +68,6 @@
             color: blue;
         }
     </style>
-    <script>
-        new Vue({
-            el: '#app',
-            data: {
-                color: 'text-dark',
-                yellowBg: 'yellow-bg',
-                bg: false
-            },
-            methods: {
-                change: function () {
-                    this.bg = !this.bg;
-                }
-            }
-        })
-    </script>
 </body>
 
 </html>
