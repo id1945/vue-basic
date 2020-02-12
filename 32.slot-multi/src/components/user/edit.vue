@@ -1,5 +1,6 @@
 <template>
     <div class="detail">
+        <!-- Slot giống như ng-content của angular 2+ -->
         <slot name="title"></slot>
         <hr>
         <slot name="content"></slot>
