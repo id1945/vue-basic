@@ -69,7 +69,7 @@ https://vuejs.org
 
 ## Import Third-party Modules
 01. [01.vue-property-decorator](https://github.com/kaorun343/vue-property-decorator "01.vue-property-decorator")
-02. [02.vuex-module-decorators](https://championswimmer.in/vuex-module-decorators/pages/installation.html "02.vuex-module-decorators")
+02. [02.vuex-module-decorators](https://championswimmer.in/vuex-module-decorators/pages/installation.html "02.vuex-module-decorators") https://github.com/championswimmer/vuex-module-decorators/tree/master/docs/pages
 
 
 ## Template vuejs
