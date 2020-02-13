@@ -61,6 +61,12 @@ Vue CLI
 55. [55.vue-router](https://id1945.github.io/vue-basic/55.vue-router/dist "55.vue-router")
 56. [56.vue-router-active-class](https://id1945.github.io/vue-basic/56.vue-router-active-class/dist "56.vue-router-active-class")
 57. [57.vue-router-event-link](https://id1945.github.io/vue-basic/57.vue-router-event-link/dist "57.vue-router-event-link")
-57. [58.vue-router-get-query-params](https://id1945.github.io/vue-basic/58.vue-router-get-query-params/dist "58.vue-router-get-query-params")
-57. [59.vue-router-watch-query-params](https://id1945.github.io/vue-basic/59.vue-router-watch-query-params/dist "59.vue-router-watch-query-params")
-57. [60.vue-router-children](https://id1945.github.io/vue-basic/60.vue-router-children/dist "60.vue-router-children")
+58. [58.vue-router-get-query-params](https://id1945.github.io/vue-basic/58.vue-router-get-query-params/dist "58.vue-router-get-query-params")
+59. [59.vue-router-watch-query-params](https://id1945.github.io/vue-basic/59.vue-router-watch-query-params/dist "59.vue-router-watch-query-params")
+60. [60.vue-router-children](https://id1945.github.io/vue-basic/60.vue-router-children/dist "60.vue-router-children")
+61. [61.vue-router-children-link-with-name](https://id1945.github.io/vue-basic/61.vue-router-children-link-with-name/dist "61.vue-router-children-link-with-name")
+
+
+# Import Third-party Modules
+01. [01.vue-property-decorator](https://github.com/kaorun343/vue-property-decorator "01.vue-property-decorator")
+
