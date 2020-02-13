@@ -16,7 +16,7 @@
                 Box css
             </span>
         </div>
-        <b :class="{text-danger:true}">Class:</b> text-dark, text-danger, text-primary<br/>
+        <b :class="{'text-danger':true}">Class:</b> text-dark, text-danger, text-primary<br/>
         <input type="text" v-model="color" placeholder="Nhập màu chữ"><br/>
         <button v-on:click="change">Thay đổi background</button>
     </div>
