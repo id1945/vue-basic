@@ -90,3 +90,17 @@ v-on:click.selt.prevent   // chỉ ngăn các click trên phần tử được n
 <!-- Chỉ thực hiện khi click -->
 <button @click.exact="onClick">A</button>
 ````
+
+##### Other available mouse modifiers
+
+```shell
+.enter
+.tab
+.delete (captures both “Delete” and “Backspace” keys)
+.esc
+.space
+.up
+.down
+.left
+```
+
