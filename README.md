@@ -65,6 +65,7 @@ https://vuejs.org
 59. [59.vue-router-watch-query-params](https://id1945.github.io/vue-basic/59.vue-router-watch-query-params/dist "59.vue-router-watch-query-params")
 60. [60.vue-router-children](https://id1945.github.io/vue-basic/60.vue-router-children/dist "60.vue-router-children")
 61. [61.vue-router-children-link-with-name](https://id1945.github.io/vue-basic/61.vue-router-children-link-with-name/dist "61.vue-router-children-link-with-name")
+62. [62.permission-directive](https://id1945.github.io/vue-basic/62.permission-directive/dist/ "62.permission-directive")
 
 
 ## Import Third-party Modules
