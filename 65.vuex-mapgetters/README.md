@@ -18,9 +18,7 @@ npm run serve
 
 ````html
 <template>
-  <div>
-    text: {{ getTodoById(1).text }} <!-- text: A -->
-  </div>
+  <h1> text: {{ getTodoById(1).text }} </h1> <!-- text: A -->
 </template>
 
 <script>

@@ -18,9 +18,7 @@ npm run serve
 
 ````html
 <template>
-  <div>
-    text: {{ doneTodosCount.text }}
-  </div>
+  <h1> text: {{ getTodoById.text }} </h1>
 </template>
 
 <script>

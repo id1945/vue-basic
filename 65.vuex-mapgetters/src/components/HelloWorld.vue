@@ -1,7 +1,5 @@
 <template>
-  <div>
-    text: {{ getTodoById(1).text }}
-  </div>
+  <h1> text: {{ getTodoById(1).text }} </h1>
 </template>
 
 <script>
