@@ -65,18 +65,28 @@ https://vuejs.org
 59. [59.vue-router-watch-query-params](https://id1945.github.io/vue-basic/59.vue-router-watch-query-params/dist "59.vue-router-watch-query-params")
 60. [60.vue-router-children](https://id1945.github.io/vue-basic/60.vue-router-children/dist "60.vue-router-children")
 61. [61.vue-router-children-link-with-name](https://id1945.github.io/vue-basic/61.vue-router-children-link-with-name/dist "61.vue-router-children-link-with-name")
-62. [62.permission-directive](https://id1945.github.io/vue-basic/62.permission-directive/dist/ "62.permission-directive")
+
+## Vuex
+
+https://vuex.vuejs.org/installation.html
+
+62. [62.vuex-state](https://id1945.github.io/vue-basic/62.vuex-state/dist/ "62.vuex-state")
+63. [63.vuex-mapstate](https://id1945.github.io/vue-basic/63.vuex-mapstate/dist/ "63.vuex-mapstate")
+64. [64.vuex-getters](https://id1945.github.io/vue-basic/64.vuex-getters/dist/ "64.vuex-getters")
 
 
 ## Import Third-party Modules
+
 01. [01.vue-property-decorator](https://github.com/kaorun343/vue-property-decorator "01.vue-property-decorator")
 02. [02.vuex-module-decorators](https://championswimmer.in/vuex-module-decorators/pages/installation.html "02.vuex-module-decorators") https://github.com/championswimmer/vuex-module-decorators/tree/master/docs/pages
 
 
 ## Template vuejs
+
 01. [01.vue-element-admin-site](https://panjiachen.github.io/vue-element-admin-site/guide "01.vue-element-admin-site")
 
 ## Router
+
 01. [01.vue-router-demos](http://vue-router-demos.surge.sh/#/examples/active-links "01.vue-router-demos")
 
 
