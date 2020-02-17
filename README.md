@@ -73,6 +73,9 @@ https://vuex.vuejs.org/installation.html
 62. [62.vuex-state](https://id1945.github.io/vue-basic/62.vuex-state/dist/ "62.vuex-state")
 63. [63.vuex-mapstate](https://id1945.github.io/vue-basic/63.vuex-mapstate/dist/ "63.vuex-mapstate")
 64. [64.vuex-getters](https://id1945.github.io/vue-basic/64.vuex-getters/dist/ "64.vuex-getters")
+65. [65.vuex-mapgetters](https://id1945.github.io/vue-basic/65.vuex-mapgetters/dist/ "65.vuex-mapgetters")
+66. [66.vuex-mutations](https://id1945.github.io/vue-basic/66.vuex-mutations/dist/ "66.vuex-mutations")
+67. [67.vuex-mapmutations](https://id1945.github.io/vue-basic/67.vuex-mapmutations/dist/ "67.vuex-mapmutations")
 
 
 ## Import Third-party Modules
