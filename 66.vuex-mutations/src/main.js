@@ -21,5 +21,6 @@ const store = new Vuex.Store({
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+    store,
+    render: h => h(App),
 }).$mount('#app')

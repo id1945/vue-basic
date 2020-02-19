@@ -17,7 +17,28 @@ npm run serve
 ```
 
 ````html
+<template>
+  <div class="hello">
+    <h1>{{count}}</h1>
+    <button @click='increment'>+</button>
+    <button @click='incrementBy({amount: 2})'>+ 2</button>
+  </div>
+</template>
 
+<script>
+import {mapState, mapMutations} from 'vuex';
+export default {
+  computed: { 
+    ...mapState(['count'])
+  },
+  methods: {
+    ...mapMutations([
+        'increment',
+        'incrementBy'
+    ])
+  }
+}
+</script>
 ````
 
 ````javascript
@@ -44,6 +65,7 @@ const store = new Vuex.Store({
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+    store,
+    render: h => h(App),
 }).$mount('#app')
 ````
